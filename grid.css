@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contianer{
+display: flex;
+padding: 70px;
+background-image: url(..//img/hero.jpg);
+background-position: top, right;
+background-size: cover;
+flex-direction: column;
+justify-content: space-between;
+
+
+
+
+
+}
+.item{
+background-image: linear-gradient(rgb(93, 224, 126), rgb(198, 201, 202));
+padding: 20px;
+margin: 20px;
+color: rgb(17, 59, 95);
+font-size: 20px;
+animation-name: Spin ;
+animation-duration: 3s;
+animation-fill-mode:both;
+}
+@keyframes Spin{
+    from { transform: rotate(0deg); }
+    to {transform: rotate(360deg); }
+}
