@@ -12,10 +12,6 @@ background-size: cover;
 flex-direction: column;
 justify-content: space-between;
 
-
-
-
-
 }
 .item{
 background-image: linear-gradient(rgb(93, 224, 126), rgb(198, 201, 202));
